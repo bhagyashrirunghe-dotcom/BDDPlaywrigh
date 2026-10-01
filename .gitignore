@@ -1,0 +1,33 @@
+
+# Dependencies
+node_modules/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Playwright test results
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Allure reports and results
+allure-results/
+allure-report/
+
+# Logs
+npm-debug.log*
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE settings
+.vscode/
+.idea/
+
+# TypeScript build files
+*.tsbuildinfo
